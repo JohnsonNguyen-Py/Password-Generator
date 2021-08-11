@@ -10,6 +10,6 @@ randomChar = string.ascii_letters + string.digits
 password = ""
 
 for length in range(10):
-    password = password + random.choice(randomChar)
+    password += random.choice(randomChar) #edit made it shorter
 
 print(password)
