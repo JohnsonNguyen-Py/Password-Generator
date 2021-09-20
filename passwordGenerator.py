@@ -16,5 +16,4 @@ print(password)
 
 
 # List Comprehension
-print("".join([random.choice(string.ascii_letters + string.digits)
-      for length2 in range(10)]))
+print("".join([random.choice(string.ascii_letters + string.digits) for length2 in range(10)]))
